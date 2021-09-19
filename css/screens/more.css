@@ -1,0 +1,29 @@
+.more__icon i {
+  color: rgba(0, 0, 0, 1);
+}
+
+.suggestions__title {
+  margin: var(--horizontal-space) 0;
+}
+
+.suggestions__app {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.suggestions__app__icon {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.suggestions__app__icon span {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  align-items: center;
+  font-weight: 600;
+}

@@ -31,3 +31,27 @@
   color: rgba(0, 0, 0, 30%);
   font-size: 15px;
 }
+
+#splash-screen {
+  background-color: var(--kakao);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 128px;
+  animation: hideSplashScreen 500ms ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

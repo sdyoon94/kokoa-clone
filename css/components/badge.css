@@ -11,6 +11,11 @@
 }
 
 .red-dot {
+  position: absolute;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   background-color: tomato;
+  top: -10px;
+  right: -10px;
 }

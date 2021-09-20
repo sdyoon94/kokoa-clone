@@ -1,0 +1,48 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 5%);
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  width: 22px;
+  height: 22px;
+  margin-right: 30px;
+  text-align: center;
+  font-size: 26px;
+  opacity: 80%;
+}
+
+.settings__setting-column:last-child {
+  opacity: 50%;
+}
+
+.settings__setting-column {
+  display: flex;
+  align-items: center;
+}
+
+.settings__N {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: tomato;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings__setting:last-child {
+  border-bottom: none;
+}
+
+.settings__line {
+  margin: 50px 0;
+}

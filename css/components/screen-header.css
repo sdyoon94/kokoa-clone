@@ -4,6 +4,7 @@
   align-items: center;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
+  margin-top: 30px;
 }
 
 .screen-header__title {
@@ -11,6 +12,28 @@
   font-weight: 600;
 }
 
+.screen-header__icons {
+  display: flex;
+}
 .screen-header__icons span {
-  margin-left: 25px;
+  position: relative;
+  margin: 0 10px;
+}
+
+.screen-header__icons .red-dot {
+  right: -8px;
+  top: -8px;
+}
+
+@keyframes rotateicons {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(1turn);
+  }
+}
+
+.screen-header__icons i:hover {
+  animation: rotateicons 1s ease-in-out infinite;
 }

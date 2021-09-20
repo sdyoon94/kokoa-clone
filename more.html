@@ -24,11 +24,14 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-2x"> </i></span>
         <span><i class="fas fa-music fa-2x"></i></span>
-        <span><i class="fas fa-cog fa-2x"></i></span>
+        <span>
+          <a href="settings.html"><i class="fas fa-cog fa-2x"></i></a>
+          <div class="red-dot"></div>
+        </span>
       </div>
     </header>
 
@@ -52,30 +55,31 @@
       </div>
 
       <div class="icon-row">
-        <div class="icon-row__icon">
+        <div class="icon-row__icon more-icon">
           <i class="far fa-calendar-check"></i>
           <span>Calendar</span>
         </div>
-        <div class="icon-row__icon">
+        <div class="icon-row__icon more-icon">
           <i class="fas fa-archive"></i>
+          <div class="red-dot"></div>
           <span>Talk Drive</span>
         </div>
-        <div class="icon-row__icon">
+        <div class="icon-row__icon more-icon">
           <i class="far fa-smile-beam"></i>
           <span>Emoticons</span>
         </div>
-        <div class="icon-row__icon">
+        <div class="icon-row__icon more-icon">
           <i class="fas fa-brush"></i>
           <span>Themes</span>
         </div>
       </div>
 
       <div class="icon-row">
-        <div class="icon-row__icon">
+        <div class="icon-row__icon more-icon">
           <i class="fas fa-file-invoice-dollar"></i>
           <span>Account</span>
         </div>
-        <div class="icon-row__icon">
+        <div class="icon-row__icon more-icon">
           <i class="far fa-comments"></i>
           <span>Openchat</span>
         </div>
@@ -85,23 +89,29 @@
 
       <div class="line"></div>
 
-      <div class="suggestions">
-        <h6 class="suggestions__title">Suggestions</h6>
+      <div class="more-suggestions">
+        <h6 class="more-suggestions__title">Suggestions</h6>
 
-        <div class="suggestions__app">
-          <div class="suggestions__app__icon">
-            <img src="#" />
+        <div class="more-suggestions__app">
+          <div class="more-suggestions__app__icon">
+            <div class="more-suggestion__app__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
             <span>Kokoa Story</span>
           </div>
-          <div class="suggestions__app__icon">
-            <img src="#" />
+          <div class="more-suggestions__app__icon">
+            <div class="more-suggestion__app__icon-image">
+              <i class="fas fa-paw"></i>
+            </div>
             <span>Kokoa Friends</span>
           </div>
-          <div class="suggestions__app__icon">
-            <img src="#" />
+          <div class="more-suggestions__app__icon">
+            <div class="more-suggestion__app__icon-image">
+              <i class="fas fa-gem"></i>
+            </div>
             <span>Kokoa Gem</span>
           </div>
-          <div class="suggestions__app__icon"></div>
+          <div class="more-suggestions__app__icon"></div>
         </div>
       </div>
     </main>
@@ -130,7 +140,7 @@
         <li class="nav__btn">
           <!-- 기타 탭 -->
           <a class="nav__link" href="more.html">
-            <div class="red-dot nav__small"></div>
+            <div class="red-dot"></div>
             <i class="fas fa-ellipsis-h fa-2x"></i>
           </a>
         </li>

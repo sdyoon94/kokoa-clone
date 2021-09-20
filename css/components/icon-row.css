@@ -1,7 +1,7 @@
 .icon-row {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  align-items: center;
 }
 
 .icon-row__icon {
@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .icon-row__icon i {
@@ -22,4 +23,9 @@
   text-align: center;
   align-items: center;
   font-weight: 600;
+}
+
+.icon-row .red-dot {
+  top: 10px;
+  right: 20px;
 }
